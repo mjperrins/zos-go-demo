@@ -6,6 +6,6 @@ import (
 
 func HealthGET(c *gin.Context) {
 	c.JSON(200, gin.H{
-		"status": "UP", "cluster": "Edge",
+		"status": "UP", "cluster": "zOS Edge",
 	})
 }
